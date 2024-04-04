@@ -2,8 +2,8 @@ import "./globals.css";
 import Logo from "@/app/components/logo";
 import Link from "next/link";
 export const metadata = {
-  title: "Confidence",
-  description: "Design studio based in Prague.",
+  title: "Confidence Crafted",
+  description: "Design studio based in Prague, made by tommys0."
 };
 
 export default function RootLayout({ children}) {
