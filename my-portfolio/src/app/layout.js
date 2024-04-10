@@ -1,6 +1,7 @@
 import "./globals.css";
 import Logo from "@/app/components/logo";
 import Link from "next/link";
+import Head from "next/head";
 export const metadata = {
   title: "Confidence Crafted",
   description: "Design studio based in Prague, made by tommys0."
@@ -9,8 +10,8 @@ export const metadata = {
 export default function RootLayout({ children}) {
   return (
     <html lang="en">
-      <body className="font-main">
-        <nav className="bg-white border-b border-gray-200 py-4 px-6 flex justify-between items-center w-10/12 mx-auto font-sans">
+    <body className="font-main">
+    <nav className="bg-white border-b border-gray-200 py-4 px-6 flex justify-between items-center w-10/12 mx-auto font-sans">
           <div className="flex items-center">
             <Link href="/">
               <Logo />
