@@ -143,7 +143,7 @@ export default function Page() {
                 </div>
             </div>
             <div className=''>
-                <div className="wrapper grid grid-cols-3 gap-4 mb-4 last:grid-
+                <div className="wrapper grid grid-cols-3 gap-4 mb-4">
                     <img src={'/image1.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
                     <img src={'/image2.webp'} alt={'image with house'} className="w-80 h-60 rounded-3xl object-cover"></img>
                     <img src={'/image3.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
