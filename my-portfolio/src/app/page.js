@@ -36,13 +36,13 @@ export default function Page() {
                 <div className={'flex-1 flex justify-center relative'}>
                     <div className={'max-w-full relative'}>
                         <Image src={'/gray-house.webp'} alt={'gray house'} layout={'responsive'} width={300}
-                               height={300} className={'rounded-3xl'}/>
+                            height={300} className={'rounded-3xl'} />
                         <div
                             className={'absolute border border-solid border-white text-white bottom-2 rounded-3xl p-5 mx-2'}>
                             <p className="text-3xl mb-10">IT IS NOT POSSIBLE TO GO FORWARD WHILE LOOKING BACK.</p>
                             <button className="flex items-center mt-2 px-3 py-1 bg-white text-black rounded-full">
                                 BOOK A CALL
-                                <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'}/>
+                                <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'} />
                             </button>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Page() {
                         <button
                             className='flex items-center mt-2 px-3 py-1 bg-white text-black font-light rounded-full'>
                             ABOUT US
-                            <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'}/>
+                            <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'} />
                         </button>
                         <p className='absolute bottom-5 left-5 mr-3 text-4xl font-light'>¨A CHAIR IS A VERY DIFFICULT
                             OBJECT. A SKYSCRAPER IS ALMOST EASIER. THAT IS WHY CHIPPENDALE IS FAMOUS.¨</p>
@@ -72,7 +72,7 @@ export default function Page() {
                     icon={
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
                             <path
-                                d="M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z"/>
+                                d="M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z" />
                         </svg>
                     }
                     name={'ADAPTABILITY'}
@@ -81,7 +81,7 @@ export default function Page() {
                 <Card
                     icon={
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
-                            <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
+                            <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z" />
                         </svg>
                     }
                     name={'QUALITY'}
@@ -90,8 +90,8 @@ export default function Page() {
                 <Card
                     icon={
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
-                            <path d="M1 11v10h5v-6h4v6h5V11L8 6z"/>
-                            <path d="M10 3v1.97l7 5V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z"/>
+                            <path d="M1 11v10h5v-6h4v6h5V11L8 6z" />
+                            <path d="M10 3v1.97l7 5V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z" />
                         </svg>
                     }
                     name={'CLIENT-CENTRIC'}
@@ -106,7 +106,7 @@ export default function Page() {
                         <button
                             className='flex items-center mt-2 px-3 py-1 bg-customDarkGray text-white font-light rounded-full hover:cursor-pointer'>
                             All Projects
-                            <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'} className='invert'/>
+                            <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'} className='invert' />
                         </button>
                     </div>
                     <div className=''>
@@ -130,9 +130,9 @@ export default function Page() {
                             <div className={'bottom-5 left-5'}>
                                 <label className={'flex'}>
                                     <input type={"text"} placeholder={'NAME'}
-                                           className={'w-full bg-customGray p-4 placeholder-white rounded-full font-bolder mr-1'}></input>
+                                        className={'w-full bg-customGray p-4 placeholder-white rounded-full font-bolder mr-1'}></input>
                                     <input type={"text"} placeholder={'EMAIL'}
-                                           className={'w-full bg-customGray p-4 placeholder-white rounded-full font-bolder ml-1'}></input>
+                                        className={'w-full bg-customGray p-4 placeholder-white rounded-full font-bolder ml-1'}></input>
                                 </label>
                             </div>
                             <button className={'w-full bg-customDarkGray py-4 text-white rounded-full font-bolder mt-2'}>
@@ -142,7 +142,23 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-
+            <div className=''>
+                <div className="wrapper grid grid-cols-3 gap-4 mb-4 last:grid-
+                    <img src={'/image1.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
+                    <img src={'/image2.webp'} alt={'image with house'} className="w-80 h-60 rounded-3xl object-cover"></img>
+                    <img src={'/image3.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
+                </div>
+                <div className="wrapper grid grid-cols-3 gap-4 mb-4">
+                    <img src={'/image4.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
+                    <img src={'/image5.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
+                    <img src={'/image6.webp'} alt={'image with house'} className="w-80 h-60 rounded-3xl object-cover"></img>
+                </div>
+                <div className="wrapper grid grid-cols-3 gap-4 mb-4">
+                    <img src={'/image7.webp'} alt={'image with house'} className="w-80 h-60 rounded-3xl object-cover"></img>
+                    <img src={'/image8.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
+                    <img src={'/image9.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
+                </div>
+            </div>
         </main>
     )
 }
