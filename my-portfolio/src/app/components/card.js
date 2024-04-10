@@ -21,5 +21,5 @@ const Card = ({ icon, name, description }) => {
     </Link>
   );
 };
-
+ 
 export default Card;
