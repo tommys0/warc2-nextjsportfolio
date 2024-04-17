@@ -1,6 +1,7 @@
 import './globals.css';
 import Image from "next/image";
 import Card from './components/card';
+import RecentProject from "@/app/components/RecentProject";
 
 
 export default function Page() {
@@ -112,8 +113,30 @@ export default function Page() {
                     <div className=''>
                         {/* CARD 1 */}
                         <div className=''>
-
+                            <RecentProject
+                                image={'/project1.webp'}
+                                alt={'project1'}
+                                width={3000}
+                                height={3}
+                                name={'INNOVATIVE BALANCE'}
+                                date={'JAN 26, 2024'}
+                                city={'BERLIN'}
+                                service={'COMMERCIAL DESIGN'}
+                                customClass={'h-96 overflow-hidden rounded-3xl'}
+                            />
+                            <RecentProject
+                                image={'/project2.webp'}
+                                alt={'project2'}
+                                width={3000}
+                                height={3}
+                                name={'STEEL SYMPHONY'}
+                                date={'JAN 1, 2024'}
+                                city={'LONDON'}
+                                service={'INTERIOR DESIGN'}
+                                customClass={'h-96 overflow-hidden rounded-3xl'}
+                            />
                         </div>
+
                     </div>
                 </div>
             </div>
