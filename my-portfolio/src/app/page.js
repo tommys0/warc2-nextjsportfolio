@@ -135,6 +135,28 @@ export default function Page() {
                                 service={'INTERIOR DESIGN'}
                                 customClass={'h-96 overflow-hidden rounded-3xl'}
                             />
+                            <RecentProject
+                                image={'/project3.webp'}
+                                alt={'project3'}
+                                width={3000}
+                                height={3}
+                                name={'MODERNIST MARVELS'}
+                                date={'OCT 4, 2023'}
+                                city={'NEW YORK'}
+                                service={'COMMERCIAL DESIGN'}
+                                customClass={'h-96 overflow-hidden rounded-3xl'}
+                            />
+                            <RecentProject
+                                image={'/project4.webp'}
+                                alt={'project4'}
+                                width={3000}
+                                height={3}
+                                name={'FORM FOLLOWS FUNCTION'}
+                                date={'JAN 28, 2024'}
+                                city={'NEW YORK'}
+                                service={'COMMERCIAL DESIGN'}
+                                customClass={'h-96 overflow-hidden rounded-3xl'}
+                            />
                         </div>
 
                     </div>
