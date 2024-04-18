@@ -204,6 +204,17 @@ export default function Page() {
                     <img src={'/image9.webp'} alt={'image with house'} className="w-60 h-60 rounded-3xl object-cover"></img>
                 </div>
             </div>
+            <div className='w-full bg-customGray gap-2 font-light'>
+                <div className='w-3/12 aspect-w-1 aspect-h-1 bg-white my-20 p-5 rounded-3xl'>
+                    <p className={'text-5xl'}>FAQ</p>
+                    <p className={'text-xl my-7'}>If any other question comes to mind, please just put in contact with us and let us know.</p>
+                    <button className={'flex items-center mt-2 px-3 py-1 bg-customDarkGray text-white font-light rounded-full hover:cursor-pointer'}>
+                        BOOK A CALL
+                        <Image src={'/arrow.png'} alt={'arrow'} width={'20'} height={'20'} className={'invert'}/>
+                    </button>
+                </div>
+                <div className=''></div>
+            </div>
         </main>
     )
 }
