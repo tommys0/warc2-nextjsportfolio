@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = () => (
+const LogoComp = () => (
   <svg
     width="45"
     viewBox="0 0 16 14"
@@ -18,4 +18,4 @@ const Logo = () => (
   </svg>
 );
 
-export default Logo;
+export default LogoComp;
