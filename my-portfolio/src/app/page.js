@@ -230,7 +230,7 @@ export default function Page() {
                         </button>
                     </div>
                     {/* FaqOpener */}
-                    <div className="md:w-6/12 flex items-center"> {/* Center the content vertically */}
+                    <div className="w-6/12 flex items-center">
                         <FaqOpener
                             faqs={[
                                 {
