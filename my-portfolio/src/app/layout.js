@@ -1,5 +1,5 @@
 import "./globals.css";
-import Logo from "@/app/components/logo";
+import LogoComp from "@/app/components/LogoComp";
 import Link from "next/link";
 import Head from "next/head";
 export const metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({ children}) {
     <nav className="bg-white border-b border-gray-200 py-4 px-6 flex justify-between items-center w-10/12 mx-auto font-sans">
           <div className="flex items-center">
             <Link href="/">
-              <Logo />
+              <LogoComp />
             </Link>        
           </div>
           <div className="flex space-x-4">
