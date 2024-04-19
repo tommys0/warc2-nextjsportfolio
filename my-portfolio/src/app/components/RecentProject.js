@@ -14,7 +14,7 @@ export default function RecentProject({ image, alt, width, height, name, date, c
                     objectPosition="center"
                 />
             </div>
-            <div className={'flex flex-row justify-between w-full h-full p-5 bg-white rounded-3xl my-5 text-left'}>
+            <div className={'flex flex-row justify-between w-full h-full p-5 bg-white rounded-3xl mt-5 mb-10 text-left'}>
                 <p className={'w-1/2 font-thin text-4xl'}>{name}</p>
                 <div className={'text-left font-light w-1/2'}>
                     <p className={'text-sm mt-2 mb-1'}>DATE</p>
