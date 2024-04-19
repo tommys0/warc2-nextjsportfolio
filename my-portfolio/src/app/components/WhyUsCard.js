@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Card = ({ icon, name, description }) => {
+const WhyUsCard = ({ icon, name, description }) => {
   return (
     <Link href="/path/to/destination">
       <div className='p-5 relative border border-solid rounded-3xl border-white hover:border-black transition-colors duration-300 ease-in-out block cursor-default'>
@@ -22,4 +22,4 @@ const Card = ({ icon, name, description }) => {
   );
 };
  
-export default Card;
+export default WhyUsCard;
