@@ -3,6 +3,7 @@ import Image from "next/image";
 import WhyUsCard from './components/WhyUsCard';
 import RecentProject from "@/app/components/RecentProject";
 import FaqOpener from "@/app/components/FaqOpener";
+import CustomerReference from "@/app/components/CustomerReference";
 
 
 export default function Page() {
@@ -230,7 +231,7 @@ export default function Page() {
                         </button>
                     </div>
                     {/* FaqOpener */}
-                    <div className="w-6/12 flex items-center">
+                    <div className="w-7/12 flex items-center">
                         <FaqOpener
                             faqs={[
                                 {
@@ -250,7 +251,30 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-
+            {/* CUSTOMER REFERENCE PART */}
+            <div className={'mx-auto w-10/12'}>
+                <p className={'text-5xl font-light py-14'}>CUSTOMER TESTIMONIALS</p>
+                <div className={'flex justify-between'}>
+                    <CustomerReference
+                        referenceText={'"Our brand found its visual voice through the meticulous and timeless designs of this studio. The marriage of form and function is simply impeccable."'}
+                        pfp={'/pfp1.webp'}
+                        name={'Michael Scott'}
+                        position={'Regional Manager, Scranton branch'}
+                    ></CustomerReference>
+                    <CustomerReference
+                        referenceText={'"Working with this graphic design studio was like watching art come to life. The Bauhaus-inspired creations not only captured our brand essence but elevated it to a level of modern sophistication."'}
+                        pfp={'/pfp2.webp'}
+                        name={'Peter Parker'}
+                        position={'Freelance Ph'}
+                    ></CustomerReference>
+                    <CustomerReference
+                        referenceText={'"In a world cluttered with visuals, this design studio\'s commitment to Bauhaus principles sets them apart. Each design is a masterpiece of simplicity and impact, conveying our message with striking clarity."'}
+                        pfp={'/pfp3.webp'}
+                        name={'Tony Stark'}
+                        position={'CEO of Stark Industries'}
+                    ></CustomerReference>
+                </div>
+            </div>
         </main>
     )
 }
