@@ -4,6 +4,7 @@ import WhyUsCard from './components/WhyUsCard';
 import RecentProject from "@/app/components/RecentProject";
 import FaqOpener from "@/app/components/FaqOpener";
 import CustomerReference from "@/app/components/CustomerReference";
+import Footer from "@/app/components/Footer";
 
 
 export default function Page() {
@@ -254,7 +255,7 @@ export default function Page() {
             {/* CUSTOMER REFERENCE PART */}
             <div className={'mx-auto w-10/12'}>
                 <p className={'text-5xl font-light py-14'}>CUSTOMER TESTIMONIALS</p>
-                <div className={'flex justify-between'}>
+                <div className={'flex justify-between mb-14'}>
                     <CustomerReference
                         referenceText={'"Our brand found its visual voice through the meticulous and timeless designs of this studio. The marriage of form and function is simply impeccable."'}
                         pfp={'/pfp1.webp'}
@@ -275,6 +276,11 @@ export default function Page() {
                     ></CustomerReference>
                 </div>
             </div>
+            <Footer
+                address={'767 FIFTH AVENUE, NEW YORK, NY 10153, UNITED STATES'}
+                phone={'+1 800 123 4567'}
+                contactSupport={'SUPPORT@LUDWIG.COM'}
+            ></Footer>
         </main>
     )
 }
