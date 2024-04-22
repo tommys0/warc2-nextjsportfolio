@@ -79,6 +79,30 @@
             </llm>
           </llm>
         </chat>
+        <chat>
+          <accountId value="VXNlcjoyMTA5NDM=" />
+          <internalId value="dfffaf7b-99b2-4f84-a56e-bc20690f289c" />
+          <llm>
+            <llm>
+              <model value="anthropic/claude-2.0" />
+              <provider value="Anthropic" />
+              <title value="Claude 2.0" />
+            </llm>
+          </llm>
+          <messages>
+            <list>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="I need to create a nextjs component with tailwind css design that will be like a FAQ menu that will have questions and when you click on it text under it appears and answers to the question" />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="Here is an example Next.js component that implements a collapsible FAQ menu with Tailwind CSS:&#10;&#10;```jsx&#10;export default function Faq({ faqs }) {&#10;  return (&#10;    &lt;div className=&quot;max-w-2xl mx-auto&quot;&gt;&#10;      &lt;h2 className=&quot;text-2xl font-bold mb-4&quot;&gt;Frequently Asked Questions&lt;/h2&gt;&#10;      &#10;      {faqs.map(faq =&gt; (&#10;        &lt;details key={faq.question} className=&quot;mb-4&quot;&gt;&#10;          &lt;summary className=&quot;font-semibold cursor-pointer list-none&quot;&gt;&#10;            {faq.question}  &#10;          &lt;/summary&gt;&#10;          &#10;          &lt;p className=&quot;mt-2 text-gray-700&quot;&gt;{faq.answer}&lt;/p&gt;&#10;        &lt;/details&gt;&#10;      ))}&#10;    &lt;/div&gt;&#10;  );&#10;}&#10;```&#10;&#10;The key points:&#10;&#10;- Use the `&lt;details&gt;` and `&lt;summary&gt;` elements to create the collapsible content&#10;- Style with Tailwind utilities for font, margins, etc.&#10;- Map over the `faqs` array prop to render each item&#10;- Use `cursor-pointer` on summary for the click affordance&#10;- Add top margin to the answer text for spacing&#10;&#10;You would use it like:&#10;&#10;```jsx&#10;&lt;Faq&#10;  faqs={[&#10;    {&#10;      question: &quot;How do I contact support?&quot;,&#10;      answer: &quot;Email us at support@example.com&quot; &#10;    },&#10;    // other FAQ items&#10;  ]}&#10;/&gt;&#10;```&#10;&#10;Let me know if you need any clarification or have additional questions!" />
+              </message>
+            </list>
+          </messages>
+          <updatedAt value="2024-04-19T14:39:35.441106" />
+        </chat>
       </list>
     </chats>
   </component>
