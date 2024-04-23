@@ -1,9 +1,10 @@
 import LogoComp from "@/app/components/LogoComp";
 import Link from "next/link";
+import SocMedia from "@/app/components/SocMedia";
 
 export default function Footer({ address, phone, contactSupport }) {
     return (
-        <main className={'w-full bg-customGray text-white font-light'}>
+        <main className={'w-full bg-customGray text-white font-light text-sm'}>
             <div className={'w-10/12 mx-auto pt-10 pb-3'}>
                 <LogoComp color={'white'}></LogoComp>
             </div>
@@ -17,7 +18,7 @@ export default function Footer({ address, phone, contactSupport }) {
                     </div>
                 </div>
                 <div className={'flex flex-row gap-10'}>
-                    <div >
+                    <div>
                         <Link href="/">
                             <p>HOME</p>
                         </Link>
@@ -40,6 +41,11 @@ export default function Footer({ address, phone, contactSupport }) {
                         </Link>
                     </div>
                 </div>
+            </div>
+            <hr className={'w-10/12 mx-auto'}></hr>
+            <div className="flex flex-row items-center w-10/12 mx-auto my-5">
+                <p className={'mr-3'}>© 2024 - 473 AGENCY, LLC.</p>
+                <SocMedia/>
             </div>
         </main>
     )
