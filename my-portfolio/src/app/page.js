@@ -102,7 +102,7 @@ export default function Page() {
                     description={'Placing your vision at the forefront, we design spaces that not only meet expectations but exceed them, making your dreams a reality.'}
                 ></WhyUsCard>
             </div>
-            {/* Recent Project */}
+            {/* Recent Project Part*/}
             <div className='bg-customLightGray w-full text-center'>
                 <div className='w-10/12 mx-auto'>
                     <div className='flex justify-between my-10'>
@@ -115,6 +115,7 @@ export default function Page() {
                     </div>
                     <div className=''>
                         <div className=''>
+                            {/* RECENT PROJECTS */}
                             <RecentProject
                                 image={'/project1.webp'}
                                 alt={'project1'}
@@ -276,6 +277,7 @@ export default function Page() {
                     ></CustomerReference>
                 </div>
             </div>
+            {/* FOOTER */}
             <Footer
                 address={'767 FIFTH AVENUE, NEW YORK, NY 10153, UNITED STATES'}
                 phone={'+1 800 123 4567'}
